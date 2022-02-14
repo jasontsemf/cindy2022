@@ -292,7 +292,7 @@ html .card .song-list table tr .title, body .card .song-list table tr .title {
   padding-left: 3em;
   display: inline-block;
   color: rgba(0, 0, 0, 0.8);
-  width: 55vw;
+  width: 20vw;
   font-weight: 300;
 }
 html .card .song-list table tr .length, body .card .song-list table tr .length {

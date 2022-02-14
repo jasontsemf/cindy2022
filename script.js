@@ -139,14 +139,14 @@
     return $("tr").click(function() {
       if ($(this).attr('data-title') === "weGrew") {
         $(".song").html("我們都是這樣長大的");
-        $(".band").css("background": "url(https://jasontsemf.github.io/cindy2022/assets/我們都是這樣長大的.jpg)  center no-repeat");
+        $(".band").css("background", "url(https://jasontsemf.github.io/cindy2022/assets/我們都是這樣長大的.jpg)  center no-repeat");
         window.duration = 270;
         setInterval(updateSlider, 100);
         $(".slider").slider("option", "max", 270);
         changeSong(weGrew);
       } else if ($(this).attr('data-title') === "whoMade") {
         $(".song").html("誰令你心痴");
-        $(".band").css("background": "url(https://jasontsemf.github.io/cindy2022/assets/誰令你心痴.jpg)  center no-repeat");
+        $(".band").css("background", "url(https://jasontsemf.github.io/cindy2022/assets/誰令你心痴.jpg)  center no-repeat");
         window.duration = 302;
         setInterval(updateSlider, 100);
         $(".slider").slider("option", "max", 302);
