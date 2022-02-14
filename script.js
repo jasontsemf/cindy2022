@@ -159,21 +159,19 @@
         $(".slider").slider("option", "max", 241);
         changeSong(galatic);
       } else if ($(this).attr('data-title') === "weHandsome") {
-        changeSong(weHandsome);
         $(".song").html("我們很帥");
-        $(".band").css("background-repeat", "repeat");
-        $(".band").css("background-position", "center");
         $(".band").css("background", "url(https://jasontsemf.github.io/cindy2022/assets/我們很帥.jpg)");
-        $(".slider").slider("option", "max", 245);
         window.duration = 245;
         setInterval(updateSlider, 100);
+        $(".slider").slider("option", "max", 245);
+        changeSong(weHandsome);
       } else if ($(this).attr('data-title') === "quarantine") {
-        changeSong(quarantine);
         $(".song").html("隔離");
         $(".band").css("background", "url(https://jasontsemf.github.io/cindy2022/assets/隔離.jpg)");
-        $(".slider").slider("option", "max", 249);
         window.duration = 249;
         setInterval(updateSlider, 100);
+        $(".slider").slider("option", "max", 249);
+        changeSong(quarantine);
       }
       $(".song-list, .playlist-controls, .overlay").removeClass("active");
       $(".slide-up").html("<i class='fa fa-chevron-up'></i>");
