@@ -59,10 +59,10 @@ html .card .picture-section h3, body .card .picture-section h3 {
 }
 html .card .picture-section .band, body .card .picture-section .band {
   background: url(https://jasontsemf.github.io/cindy2022/assets/我們都是這樣長大的.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-size: 45vh 45vh;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: cover !important;
+  background-size: 45vh 45vh !important;
   width: 100%;
   height: 40vh;
   -webkit-filter: brightness(40%) opacity(60%) blur(1px);
@@ -452,10 +452,10 @@ html .card .slide-up i:hover, body .card .slide-up i:hover {
     }
     html .card .picture-section .band, body .card .picture-section .band {
       background: url(https://jasontsemf.github.io/cindy2022/assets/我們都是這樣長大的.jpg);
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: cover;
-      background-size: 45vh 45vh;
+      background-repeat: no-repeat !important;
+      background-position: center !important;
+      background-size: cover !important;
+      background-size: 45vh 45vh !important;
       width: 100%;
       height: 45vh;
       -webkit-filter: brightness(40%) opacity(60%) blur(1px);
