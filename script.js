@@ -139,21 +139,21 @@
     return $("tr").click(function() {
       if ($(this).attr('data-title') === "weGrew") {
         $(".song").html("我們都是這樣長大的");
-        $(".band").css("background", "url(https://jasontsemf.github.io/cindy2022/assets/我們都是這樣長大的.jpg)  center no-repeat");
+        $(".band").css("background", "url(https://jasontsemf.github.io/cindy2022/assets/我們都是這樣長大的.jpg)");
         window.duration = 270;
         setInterval(updateSlider, 100);
         $(".slider").slider("option", "max", 270);
         changeSong(weGrew);
       } else if ($(this).attr('data-title') === "whoMade") {
         $(".song").html("誰令你心痴");
-        $(".band").css("background", "url(https://jasontsemf.github.io/cindy2022/assets/誰令你心痴.jpg)  center no-repeat");
+        $(".band").css("background", "url(https://jasontsemf.github.io/cindy2022/assets/誰令你心痴.jpg)");
         window.duration = 302;
         setInterval(updateSlider, 100);
         $(".slider").slider("option", "max", 302);
         changeSong(whoMade);
       } else if ($(this).attr('data-title') === "galatic") {
         $(".song").html("銀河修理員");
-        $(".band").css("background", "url(https://jasontsemf.github.io/cindy2022/assets/銀河修理員.jpg)  center no-repeat");
+        $(".band").css("background", "url(https://jasontsemf.github.io/cindy2022/assets/銀河修理員.jpg)");
         window.duration = 241;
         setInterval(updateSlider, 100);
         $(".slider").slider("option", "max", 241);
@@ -163,14 +163,14 @@
         $(".song").html("我們很帥");
         $(".band").css("background-repeat", "repeat");
         $(".band").css("background-position", "center");
-        $(".band").css("background", "url(https://jasontsemf.github.io/cindy2022/assets/我們很帥.jpg)  center no-repeat");
+        $(".band").css("background", "url(https://jasontsemf.github.io/cindy2022/assets/我們很帥.jpg)");
         $(".slider").slider("option", "max", 245);
         window.duration = 245;
         setInterval(updateSlider, 100);
       } else if ($(this).attr('data-title') === "quarantine") {
         changeSong(quarantine);
         $(".song").html("隔離");
-        $(".band").css("background", "url(https://jasontsemf.github.io/cindy2022/assets/隔離.jpg)  center no-repeat");
+        $(".band").css("background", "url(https://jasontsemf.github.io/cindy2022/assets/隔離.jpg)");
         $(".slider").slider("option", "max", 249);
         window.duration = 249;
         setInterval(updateSlider, 100);
