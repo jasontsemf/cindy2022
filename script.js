@@ -3,27 +3,27 @@
   var quarantine, weGrew, changePosition, changeSong, changeVolume, whoMade, pauseSong, playSong, playlist, galatic, weHandsome, updatePositionSlider, updateSlider;
 
   weGrew = new Howl({
-    urls: ['https://jasontsemf.github.io/cindy2022/assets/我們都是這樣長大的.mp3'],
+    urls: ['./assets/我們都是這樣長大的.mp3'],
     volume: window.volume
   });
 
   whoMade = new Howl({
-    urls: ['https://jasontsemf.github.io/cindy2022/assets/誰令你心痴.mp3'],
+    urls: ['./assets/誰令你心痴.mp3'],
     volume: window.volume
   });
 
   galatic = new Howl({
-    urls: ['https://jasontsemf.github.io/cindy2022/assets/銀河修理員.mp3'],
+    urls: ['./assets/銀河修理員.mp3'],
     volume: window.volume
   });
 
   weHandsome = new Howl({
-    urls: ['https://jasontsemf.github.io/cindy2022/assets/我們很帥.mp3'],
+    urls: ['./assets/我們很帥.mp3'],
     volume: window.volume
   });
 
   quarantine = new Howl({
-    urls: ['https://jasontsemf.github.io/cindy2022/assets/隔離.mp3'],
+    urls: ['./assets/隔離.mp3'],
     volume: window.volume
   });
 
@@ -139,35 +139,35 @@
     return $("tr").click(function() {
       if ($(this).attr('data-title') === "weGrew") {
         $(".song").html("我們都是這樣長大的");
-        $(".band").css("background", "url(https://jasontsemf.github.io/cindy2022/assets/我們都是這樣長大的.jpg)");
+        $(".band").css("background", "url(./assets/我們都是這樣長大的.jpg)");
         window.duration = 270;
         setInterval(updateSlider, 100);
         $(".slider").slider("option", "max", 270);
         changeSong(weGrew);
       } else if ($(this).attr('data-title') === "whoMade") {
         $(".song").html("誰令你心痴");
-        $(".band").css("background", "url(https://jasontsemf.github.io/cindy2022/assets/誰令你心痴.jpg)");
+        $(".band").css("background", "url(./assets/誰令你心痴.jpg)");
         window.duration = 302;
         setInterval(updateSlider, 100);
         $(".slider").slider("option", "max", 302);
         changeSong(whoMade);
       } else if ($(this).attr('data-title') === "galatic") {
         $(".song").html("銀河修理員");
-        $(".band").css("background", "url(https://jasontsemf.github.io/cindy2022/assets/銀河修理員.jpg)");
+        $(".band").css("background", "url(./assets/銀河修理員.jpg)");
         window.duration = 241;
         setInterval(updateSlider, 100);
         $(".slider").slider("option", "max", 241);
         changeSong(galatic);
       } else if ($(this).attr('data-title') === "weHandsome") {
         $(".song").html("我們很帥");
-        $(".band").css("background", "url(https://jasontsemf.github.io/cindy2022/assets/我們很帥.jpg)");
+        $(".band").css("background", "url(./assets/我們很帥.jpg)");
         window.duration = 245;
         setInterval(updateSlider, 100);
         $(".slider").slider("option", "max", 245);
         changeSong(weHandsome);
       } else if ($(this).attr('data-title') === "quarantine") {
         $(".song").html("隔離");
-        $(".band").css("background", "url(https://jasontsemf.github.io/cindy2022/assets/隔離.jpg)");
+        $(".band").css("background", "url(./assets/隔離.jpg)");
         window.duration = 249;
         setInterval(updateSlider, 100);
         $(".slider").slider("option", "max", 249);

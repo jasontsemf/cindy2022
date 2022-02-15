@@ -58,7 +58,7 @@ html .card .picture-section h3, body .card .picture-section h3 {
   font-weight: 300;
 }
 html .card .picture-section .band, body .card .picture-section .band {
-  background: url(https://jasontsemf.github.io/cindy2022/assets/我們都是這樣長大的.jpg);
+  background: url(./assets/我們都是這樣長大的.jpg);
   background-repeat: no-repeat !important;
   background-position: center !important;
   background-size: cover !important;
@@ -108,9 +108,9 @@ html .card .slider .ui-slider-range, body .card .slider .ui-slider-range {
   background: #f3a4c9;
 }
 html .card .slider .ui-slider-handle, body .card .slider .ui-slider-handle {
-  width: 3px;
+  width: 17px;
   margin-left: 0px;
-  height: 15px;
+  height: 35px;
   top: 1px;
 }
 html .card .slider .ui-slider-handle:focus, body .card .slider .ui-slider-handle:focus {
@@ -451,7 +451,7 @@ html .card .slide-up i:hover, body .card .slide-up i:hover {
       font-size: 1.5em;
     }
     html .card .picture-section .band, body .card .picture-section .band {
-      background: url(https://jasontsemf.github.io/cindy2022/assets/我們都是這樣長大的.jpg);
+      background: url(./assets/我們都是這樣長大的.jpg);
       background-repeat: no-repeat !important;
       background-position: center !important;
       background-size: cover !important;
@@ -501,9 +501,9 @@ html .card .slide-up i:hover, body .card .slide-up i:hover {
       background: #f3a4c9;
     }
     html .card .slider .ui-slider-handle, body .card .slider .ui-slider-handle {
-      width: 3px;
+      width: 17px;
       margin-left: 0px;
-      height: 15px;
+      height: 35px;
       top: 1px;
     }
     html .card .slider .ui-slider-handle:focus, body .card .slider .ui-slider-handle:focus {
